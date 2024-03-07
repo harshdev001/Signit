@@ -4,23 +4,58 @@
   align-items: center;
   margin-top: 20px;
 }
+
 #signature-pad {
-  border: 2px solid #000;
+  border: 2px solid #3498db; 
+  border-radius: 5px; 
 }
+
 #clear-button {
   margin-top: 10px;
   margin-bottom: 5px;
-  padding: 5px 10px;
-  background-color: #f00;
+  padding: 8px 15px; 
+  background-color: #e74c3c; 
   color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  transition: background-color 0.3s; }
+
+#clear-button:hover {
+  background-color: #c0392b; 
 }
+
+#save-button {
+  padding: 8px 15px;
+  background-color: #2ecc71; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#save-button:hover {
+  background-color: #27ae60; 
+}
+
 .Headline {
   align-items: center;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  font-family: Arial, sans-serif; 
+  color: #555; 
+  text-align: center;
+  margin-bottom: 20px; 
 }
+
+h1 {
+  font-size: 24px; 
+}
+
+body {
+  background-color: #ecf0f1; 
+}
+
 
